@@ -1,85 +1,154 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>LoanFit</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <style>
-        *{
-            margin:0;
-            padding:0;
-            box-sizing:border-box;
-            font-family:Arial, sans-serif;
-        }
+<title>LoanFit - Know Your Loan Eligibility</title>
 
-        body{
-            background:#f4f7fb;
-            display:flex;
-            justify-content:center;
-            align-items:center;
-            height:100vh;
-        }
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
 
-        .card{
-            background:white;
-            width:700px;
-            padding:50px;
-            border-radius:15px;
-            box-shadow:0 10px 25px rgba(0,0,0,.1);
-            text-align:center;
-        }
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
 
-        h1{
-            color:#1565C0;
-            font-size:48px;
-            margin-bottom:20px;
-        }
+<link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
 
-        p{
-            font-size:20px;
-            color:#555;
-            margin-bottom:15px;
-        }
-
-        .coming{
-            margin-top:30px;
-            color:#2E7D32;
-            font-size:28px;
-            font-weight:bold;
-        }
-
-        footer{
-            margin-top:40px;
-            color:gray;
-            font-size:14px;
-        }
-    </style>
+<link rel="stylesheet" href="css/style.css">
 
 </head>
+
 <body>
 
-<div class="card">
+<nav class="navbar navbar-expand-lg fixed-top">
 
-<h1>LoanFit</h1>
+<div class="container">
 
-<p>
-Know your loan eligibility before applying.
-</p>
+<a class="navbar-brand" href="#">
+<img src="images/logo.png" alt="LoanFit">
+</a>
 
-<p>
-Helping borrowers make informed decisions and reduce unnecessary loan rejections.
-</p>
+<button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu">
+<span class="navbar-toggler-icon"></span>
+</button>
 
-<div class="coming">
-🚀 Coming Soon
+<div class="collapse navbar-collapse" id="menu">
+
+<ul class="navbar-nav mx-auto">
+
+<li class="nav-item">
+<a class="nav-link active" href="#">Home</a>
+</li>
+
+<li class="nav-item">
+<a class="nav-link" href="#">Features</a>
+</li>
+
+<li class="nav-item">
+<a class="nav-link" href="#">How it Works</a>
+</li>
+
+<li class="nav-item">
+<a class="nav-link" href="#">About</a>
+</li>
+
+<li class="nav-item">
+<a class="nav-link" href="#">Contact</a>
+</li>
+
+</ul>
+
+<a class="btn btn-primary px-4" href="#">
+Get Started
+</a>
+
 </div>
 
-<footer>
-© 2026 LoanFit. All Rights Reserved.
-</footer>
+</div>
+
+</nav>
+
+<section class="hero">
+
+<div class="container">
+
+<div class="row align-items-center">
+
+<div class="col-lg-6">
+
+<span class="hero-tag">
+Loan Eligibility Platform
+</span>
+
+<h1>
+
+Find the Right Bank Before You Apply
+
+</h1>
+
+<p>
+
+Compare your eligibility across multiple banks before submitting a loan application. Save time, protect your credit score, and make smarter financial decisions.
+
+</p>
+
+<div class="hero-buttons">
+
+<a href="#" class="btn btn-primary btn-lg">
+
+Check My Eligibility
+
+</a>
+
+<a href="#" class="btn btn-outline-primary btn-lg">
+
+Learn More
+
+</a>
 
 </div>
+
+<div class="hero-points">
+
+<div>
+
+<i class="bi bi-check-circle-fill"></i>
+
+Compare Banks
+
+</div>
+
+<div>
+
+<i class="bi bi-check-circle-fill"></i>
+
+Protect Credit Score
+
+</div>
+
+<div>
+
+<i class="bi bi-check-circle-fill"></i>
+
+Fast Analysis
+
+</div>
+
+</div>
+
+</div>
+
+<div class="col-lg-6 text-center">
+
+<img src="images/hero.svg" class="hero-image">
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 
 </body>
 </html>

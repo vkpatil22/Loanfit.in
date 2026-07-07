@@ -1,0 +1,114 @@
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+}
+
+body{
+font-family:Poppins,sans-serif;
+background:#f8fafc;
+}
+
+.navbar{
+background:#fff;
+padding:18px 0;
+box-shadow:0 10px 30px rgba(0,0,0,.05);
+}
+
+.navbar-brand img{
+height:58px;
+}
+
+.nav-link{
+margin-left:22px;
+font-weight:500;
+}
+
+.hero{
+padding:160px 0 100px;
+}
+
+.hero-tag{
+background:#dbeafe;
+color:#2563eb;
+padding:10px 18px;
+border-radius:30px;
+font-weight:600;
+display:inline-block;
+margin-bottom:20px;
+}
+
+.hero h1{
+font-size:58px;
+font-weight:800;
+line-height:1.1;
+color:#0f172a;
+margin-bottom:25px;
+}
+
+.hero p{
+font-size:20px;
+color:#64748b;
+line-height:1.8;
+}
+
+.hero-buttons{
+margin-top:35px;
+display:flex;
+gap:18px;
+flex-wrap:wrap;
+}
+
+.hero-points{
+display:flex;
+gap:30px;
+margin-top:40px;
+font-weight:600;
+flex-wrap:wrap;
+}
+
+.hero-points i{
+color:#22c55e;
+margin-right:8px;
+}
+
+.hero-image{
+max-width:520px;
+width:100%;
+}
+
+.btn{
+padding:14px 28px;
+border-radius:12px;
+font-weight:600;
+}
+
+@media(max-width:991px){
+
+.hero{
+padding-top:130px;
+text-align:center;
+}
+
+.hero h1{
+font-size:42px;
+}
+
+.hero-buttons{
+justify-content:center;
+}
+
+.hero-points{
+justify-content:center;
+}
+
+.hero-image{
+margin-top:50px;
+max-width:350px;
+}
+
+.navbar-brand img{
+height:48px;
+}
+
+}
