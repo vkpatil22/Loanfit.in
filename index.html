@@ -394,22 +394,31 @@ Fast Analysis
 
          </div>
          
-            <form class="contact-form" action="#" method="post">
+            <form class="contact-form" action="https://formsubmit.co/e3b28baf272e7f6386288c9a3c456cb8" method="POST">
 
-                <input type="text" placeholder="Your Name" required>
+          <input type="text" name="name" placeholder="Your Name" required>
 
-                <input type="email" placeholder="Email Address" required>
+          <input type="email" name="email" placeholder="Email Address" required>
 
-                <input type="text" placeholder="Subject" required>
+         <input type="text" name="subject" placeholder="Subject" required>
 
-                <textarea rows="2" placeholder="Your Message" ></textarea>
+          <textarea name="message" rows="4" placeholder="Your Message" required></textarea>
+ 
+         <!-- Hidden Fields -->
+          <input type="hidden" name="_subject" value="New Contact Form Submission - LoanFit">
 
-              <button type="submit" class="btn-primary">
-               <i class="bi bi-send-fill"></i>
-              Send Message
-              </button>
+         <input type="hidden" name="_captcha" value="false">
 
-            </form>
+         <input type="hidden" name="_template" value="table">
+
+          <input type="hidden" name="_next" value="https://loanfit.in/thank-you.html">
+
+         <button type="submit" class="btn-primary">
+           <i class="bi bi-send-fill"></i>
+          Send Message
+          </button>
+
+         </form>
 
         </div>
 
