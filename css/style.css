@@ -648,3 +648,96 @@ section{
     line-height:1.6;
     text-align:center;
 }
+
+/* ===========================
+   Contact Form Message
+=========================== */
+
+#formMessage{
+    display:none;
+    margin-top:20px;
+    padding:15px 18px;
+    border-radius:10px;
+    font-size:15px;
+    font-weight:500;
+    line-height:1.5;
+}
+
+#formMessage i{
+    margin-right:8px;
+}
+
+#formMessage.success{
+    display:block;
+    background:#ecfdf5;
+    color:#065f46;
+    border:1px solid #10b981;
+}
+
+#formMessage.error{
+    display:block;
+    background:#fef2f2;
+    color:#991b1b;
+    border:1px solid #ef4444;
+}
+
+#submitBtn:disabled{
+    opacity:.75;
+    cursor:not-allowed;
+}
+
+/* ==========================
+   Input Validation
+========================== */
+
+.contact-form input,
+.contact-form textarea{
+    transition:.3s;
+}
+
+.contact-form input.valid,
+.contact-form textarea.valid{
+    border:2px solid #10b981;
+}
+
+.contact-form input.invalid,
+.contact-form textarea.invalid{
+    border:2px solid #ef4444;
+}
+
+#charCount{
+    color:#6b7280;
+    font-size:13px;
+}
+
+#charCount.limit{
+    color:#ef4444;
+    font-weight:600;
+}
+/* ==========================
+   Form Group
+========================== */
+
+.form-group{
+    margin-bottom:18px;
+}
+
+/* Reserve space for validation messages */
+
+.error-text{
+    display:block;
+    min-height:18px;
+    margin-top:6px;
+    font-size:13px;
+    font-weight:500;
+    color:#dc2626;
+}
+
+/* Better focus effect */
+
+.contact-form input:focus,
+.contact-form textarea:focus{
+    outline:none;
+    border-color:#2563eb;
+    box-shadow:0 0 0 4px rgba(37,99,235,.12);
+}

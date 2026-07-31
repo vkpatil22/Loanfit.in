@@ -394,16 +394,62 @@ Fast Analysis
 
          </div>
          
-            <form class="contact-form" action="https://formsubmit.co/e3b28baf272e7f6386288c9a3c456cb8" method="POST">
+            <form class="contact-form" id="contactForm" action="https://formsubmit.co/e3b28baf272e7f6386288c9a3c456cb8" method="POST">
 
-          <input type="text" name="name" placeholder="Your Name" required>
+          <div class="form-group">
+            <input
+           type="text"
+           id="name"
+           name="name"
+           placeholder="Your Name"
+           required>
 
-          <input type="email" name="email" placeholder="Email Address" required>
+          <small class="error-text" id="nameError"></small>
+         </div>
 
-         <input type="text" name="subject" placeholder="Subject" required>
+          <div class="form-group">
+          <input
+             type="email"
+             id="email"
+             name="email"
+             placeholder="Email Address"
+             required>
 
-          <textarea name="message" rows="4" placeholder="Your Message" required></textarea>
- 
+             <small class="error-text" id="emailError"></small>
+          </div>
+
+         <div class="form-group">
+           <input
+           type="text"
+            id="subject"
+            name="subject"
+            placeholder="Subject"
+            required>
+
+         <small class="error-text" id="subjectError"></small>
+         </div>
+
+          <div class="form-group">
+
+          <textarea
+            id="message"
+             name="message"
+             rows="4"
+             maxlength="500"
+             placeholder="Your Message"
+             required></textarea>
+
+             <small class="error-text" id="messageError"></small>
+
+          <div class="text-end">
+          <small id="charCount">0 / 500</small>
+           </div>
+
+         </div>
+          <div class="text-end">
+          <small id="charCount">0 / 500</small>
+           </div>
+
          <!-- Hidden Fields -->
           <input type="hidden" name="_subject" value="New Contact Form Submission - LoanFit">
 
@@ -413,10 +459,12 @@ Fast Analysis
 
           <input type="hidden" name="_next" value="https://loanfit.in/">
 
-         <button type="submit" class="btn-primary">
+         <button type="submit" id="submitBtn" class="btn-primary">
            <i class="bi bi-send-fill"></i>
           Send Message
           </button>
+         <div id="formMessage"></div>
+
 
          </form>
 
