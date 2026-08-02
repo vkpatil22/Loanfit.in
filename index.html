@@ -1,551 +1,544 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="LoanFit helps you check your loan eligibility, compare lenders, and make informed borrowing decisions before applying for a loan.">
+    <title>LoanFit - Know Your Loan Eligibility</title>
 
-<title>LoanFit - Know Your Loan Eligibility</title>
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
+    <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+    <link rel="manifest" href="images/site.webmanifest">
 
-<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
 
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
 
-<link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
 
-<link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style.css">
 
 </head>
 
 <body>
 
-<nav class="navbar navbar-expand-lg fixed-top">
+    <nav class="navbar navbar-expand-lg fixed-top">
 
-<div class="container">
+        <div class="container">
 
-<a class="navbar-brand" href="#">
-<img src="images/logo.png" alt="LoanFit">
-</a>
+            <a class="navbar-brand" href="index.html">
+                <img src="images/logo.png" alt="LoanFit">
+            </a>
 
-<button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu">
-<span class="navbar-toggler-icon"></span>
-</button>
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
 
-<div class="collapse navbar-collapse" id="menu">
+            <div class="collapse navbar-collapse" id="menu">
 
-<ul class="navbar-nav mx-auto">
+                <ul class="navbar-nav mx-auto">
 
-<li class="nav-item">
-<a class="nav-link active" href="#home">Home</a>
-</li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#home">Home</a>
+                    </li>
 
-<li class="nav-item">
-<a class="nav-link" href="#features">Features</a>
-</li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#features">Features</a>
+                    </li>
 
-<li class="nav-item">
-<a class="nav-link" href="#how">How it Works</a>
-</li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#how">How it Works</a>
+                    </li>
 
-<li class="nav-item">
-<a class="nav-link" href="#about">About</a>
-</li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
 
-<li class="nav-item">
-<a class="nav-link" href="#contact">Contact</a>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
 
-</li>
+                    </li>
 
-</ul>
+                </ul>
 
-<a href="eligibility.html" class="btn btn-primary px-4" >
-Get Started
-</a>
+                <a href="eligibility.html" class="btn btn-primary px-4">
+                    Check Eligibility
+                </a>
 
-</div>
-
-</div>
-
-</nav>
-
-<section class="hero" id="home">
-
-<div class="container">
-
-<div class="row align-items-center">
-
-<div class="col-lg-6">
-
-<span class="hero-tag">
-Loan Eligibility Platform
-</span>
-
-<h1>
-
-Find the Right Bank Before You Apply
-
-</h1>
-
-<p>
-
-Compare your eligibility across multiple banks before submitting a loan application. Save time, protect your credit score, and make smarter financial decisions.
-
-</p>
-
-<div class="hero-buttons">
-
-<a href="#" class="btn btn-primary btn-lg">
-
-Check My Eligibility
-
-</a>
-
-<a href="#" class="btn btn-outline-primary btn-lg">
-
-Learn More
-
-</a>
-
-</div>
-
-<div class="hero-points">
-
-<div>
-
-<i class="bi bi-check-circle-fill"></i>
-
-Compare Banks
-
-</div>
-
-<div>
-
-<i class="bi bi-check-circle-fill"></i>
-
-Protect Credit Score
-
-</div>
-
-<div>
-
-<i class="bi bi-check-circle-fill"></i>
-
-Fast Analysis
-
-</div>
-
-</div>
-
-</div>
-
-<div class="col-lg-6 text-center">
-
-<img src="images/hero.svg" class="hero-image">
-
-</div>
-
-</div>
-
-</div>
-
-</section>
-
-
-<!-- ================= FEATURES SECTION ================= -->
-
-<section class="features" id="features">
-
-    <div class="container">
-
-        <div class="section-title">
-            <span>WHY LOANFIT?</span>
-
-            <h2>Everything You Need Before Applying</h2>
-
-            <p>
-                LoanFit helps you compare banks, protect your credit score,
-                and choose the right lender before submitting your application.
-            </p>
-        </div>
-
-        <div class="features-grid">
-
-            <div class="feature-card">
-                <div class="icon">🛡️</div>
-                <h3>Protect Credit Score</h3>
-                <p>
-                    Avoid unnecessary loan applications that may affect your credit score.
-                </p>
-            </div>
-
-            <div class="feature-card">
-                <div class="icon">🏦</div>
-                <h3>Compare Banks</h3>
-                <p>
-                    Instantly compare multiple banks based on your eligibility.
-                </p>
-            </div>
-
-            <div class="feature-card">
-                <div class="icon">⚡</div>
-                <h3>Instant Results</h3>
-                <p>
-                    Get your loan eligibility recommendations in seconds.
-                </p>
-            </div>
-
-            <div class="feature-card">
-                <div class="icon">🔒</div>
-                <h3>Secure Platform</h3>
-                <p>
-                    Your personal information is protected with secure processing.
-                </p>
-            </div>
-
-            <div class="feature-card">
-                <div class="icon">📄</div>
-                <h3>Document Analysis</h3>
-                <p>
-                    Recommendations are based on your profile and supporting documents.
-                </p>
-            </div>
-
-            <div class="feature-card">
-                <div class="icon">💰</div>
-                <h3>Completely Free</h3>
-                <p>
-                    Check your loan eligibility with no hidden charges.
-                </p>
             </div>
 
         </div>
 
-    </div>
+    </nav>
 
-</section>
+    <section class="hero" id="home">
 
+        <div class="container">
 
-<!-- ================= HOW IT WORKS ================= -->
+            <div class="row align-items-center">
 
-<section class="how-it-works" id="how">
+                <div class="col-lg-6">
 
-    <div class="container">
+                    <span class="hero-tag">
+                        Loan Eligibility Platform
+                    </span>
 
-        <div class="section-title">
+                    <h1>
 
-            <span>HOW IT WORKS</span>
+                        Find the Right Bank Before You Apply
 
-            <h2>Get Loan Ready in 4 Simple Steps</h2>
+                    </h1>
 
-            <p>
-                LoanFit helps you understand your loan eligibility before you apply.
-            </p>
+                    <p>
 
-        </div>
+                        Compare your eligibility across multiple banks before submitting a loan application. Save time,
+                        protect your credit score, and make smarter financial decisions.
 
-        <div class="steps">
+                    </p>
 
-            <div class="step-card">
-                <div class="step-number">1</div>
-                <h3>Enter Details</h3>
-                <p>Provide your basic personal and financial information.</p>
-            </div>
+                    <div class="hero-buttons">
 
-            <div class="step-card">
-                <div class="step-number">2</div>
-                <h3>Eligibility Analysis</h3>
-                <p>LoanFit analyzes your profile using bank eligibility rules.</p>
-            </div>
+                        <a href="#" class="btn btn-primary btn-lg">
 
-            <div class="step-card">
-                <div class="step-number">3</div>
-                <h3>Compare Banks</h3>
-                <p>See which banks are most likely to approve your application.</p>
-            </div>
+                            Check My Eligibility
 
-            <div class="step-card">
-                <div class="step-number">4</div>
-                <h3>Apply with Confidence</h3>
-                <p>Choose the right lender and apply with confidence.</p>
-            </div>
+                        </a>
 
-        </div>
+                        <a href="#" class="btn btn-outline-primary btn-lg">
 
-    </div>
+                            Learn More
 
-</section>
+                        </a>
 
+                    </div>
 
+                    <div class="hero-points">
 
-<section class="about" id="about">
-    <div class="container about-container">
+                        <div>
 
-        <div class="about-image">
-            <img src="images/hero.svg" alt="About LoanFit">
-        </div>
+                            <i class="bi bi-check-circle-fill"></i>
 
-        <div class="about-content">
+                            Compare Banks
 
-          <div class="section-title">
-            <span class="section-badge">ABOUT LOANFIT</span>
-           </div>
+                        </div>
 
-            <h2>Helping You Choose the Right Bank Before You Apply</h2>
+                        <div>
 
-            <p>
-                LoanFit is a smart loan eligibility platform designed to help
-                users compare multiple banks before applying for a loan. Our
-                goal is to reduce unnecessary loan rejections and protect your
-                credit score.
-            </p>
+                            <i class="bi bi-check-circle-fill"></i>
 
-            <p>
-                We analyze your profile using bank-specific eligibility rules,
-                allowing you to make informed financial decisions within
-                minutes.
-            </p>
+                            Protect Credit Score
 
-            <div class="about-stats">
+                        </div>
 
-                <div class="stat-box">
-                    <h3>25+</h3>
-                    <p>Banks</p>
+                        <div>
+
+                            <i class="bi bi-check-circle-fill"></i>
+
+                            Fast Analysis
+
+                        </div>
+
+                    </div>
+
                 </div>
 
-                <div class="stat-box">
-                    <h3>100+</h3>
-                    <p>Eligibility Rules</p>
-                </div>
+                <div class="col-lg-6 text-center">
 
-                <div class="stat-box">
-                    <h3>Instant</h3>
-                    <p>Results</p>
+                    <img src="images/hero.svg" class="hero-image">
+
                 </div>
 
             </div>
 
         </div>
 
-    </div>
-</section>
-
-<section class="contact" id="contact">
-
-    <div class="container">
-
-        <div class="section-title">
-
-            <span>CONTACT US</span>
-
-            <h2>Let's Build Your Financial Future</h2>
-
-            <p>
-                Have questions about LoanFit? We'd love to hear from you.
-                Reach out and we'll get back to you as soon as possible.
-            </p>
-
-        </div>
-
-        <div class="contact-wrapper">
-
-         <div class="contact-info">
-          <h3>Get In Touch</h3>
-
-        <p>
-    We're building LoanFit to help people make smarter loan decisions.
-    Feel free to contact us for suggestions, feedback, or partnership opportunities.
-       </p>
-
-<div class="info-item">
-    <i class="bi bi-envelope-fill"></i>
-
-    <div>
-        <h4>Email</h4>
-        <span>info@loanfit.in</span>
-    </div>
-</div>
-
-<div class="info-item">
-    <i class="bi bi-telephone-fill"></i>
-
-    <div>
-        <h4>Phone</h4>
-        <span>Coming Soon</span>
-    </div>
-</div>
-
-<div class="info-item">
-    <i class="bi bi-geo-alt-fill"></i>
-
-    <div>
-        <h4>Location</h4>
-        <span>Maharashtra, India</span>
-    </div>
-</div>
-
-<div class="info-item">
-    <i class="bi bi-clock-fill"></i>
-
-    <div>
-        <h4>Working Hours</h4>
-        <span>Mon–Sat • 9:00 AM – 9:00 PM</span>
-    </div>
-       </div>
+    </section>
 
 
-         </div>
-         
-            <form class="contact-form" id="contactForm" action="https://formsubmit.co/e3b28baf272e7f6386288c9a3c456cb8" method="POST">
+    <!-- ================= FEATURES SECTION ================= -->
 
-          <div class="form-group">
-            <input
-           type="text"
-           id="name"
-           name="name"
-           placeholder="Your Name"
-           required>
+    <section class="features" id="features">
 
-          <small class="error-text" id="nameError"></small>
-         </div>
+        <div class="container">
 
-          <div class="form-group">
-          <input
-             type="email"
-             id="email"
-             name="email"
-             placeholder="Email Address"
-             required>
+            <div class="section-title">
+                <span>WHY LOANFIT?</span>
 
-             <small class="error-text" id="emailError"></small>
-          </div>
+                <h2>Everything You Need Before Applying</h2>
 
-         <div class="form-group">
-           <input
-           type="text"
-            id="subject"
-            name="subject"
-            placeholder="Subject"
-            required>
+                <p>
+                    LoanFit helps you compare banks, protect your credit score,
+                    and choose the right lender before submitting your application.
+                </p>
+            </div>
 
-         <small class="error-text" id="subjectError"></small>
-         </div>
+            <div class="features-grid">
 
-          <div class="form-group">
+                <div class="feature-card">
+                    <div class="icon">🛡️</div>
+                    <h3>Protect Credit Score</h3>
+                    <p>
+                        Avoid unnecessary loan applications that may affect your credit score.
+                    </p>
+                </div>
 
-          <textarea
-            id="message"
-             name="message"
-             rows="4"
-             maxlength="500"
-             placeholder="Your Message"
-             required></textarea>
+                <div class="feature-card">
+                    <div class="icon">🏦</div>
+                    <h3>Compare Banks</h3>
+                    <p>
+                        Instantly compare multiple banks based on your eligibility.
+                    </p>
+                </div>
 
-             <small class="error-text" id="messageError"></small>
+                <div class="feature-card">
+                    <div class="icon">⚡</div>
+                    <h3>Instant Results</h3>
+                    <p>
+                        Get your loan eligibility recommendations in seconds.
+                    </p>
+                </div>
 
-          <div class="text-end">
-          <small id="charCount">0 / 500</small>
-           </div>
+                <div class="feature-card">
+                    <div class="icon">🔒</div>
+                    <h3>Secure Platform</h3>
+                    <p>
+                        Your personal information is protected with secure processing.
+                    </p>
+                </div>
 
-           
-         <!-- Hidden Fields -->
-          <input type="hidden" name="_subject" value="New Contact Form Submission - LoanFit">
+                <div class="feature-card">
+                    <div class="icon">📄</div>
+                    <h3>Document Analysis</h3>
+                    <p>
+                        Recommendations are based on your profile and supporting documents.
+                    </p>
+                </div>
 
-         <input type="hidden" name="_captcha" value="false">
-
-         <input type="hidden" name="_template" value="table">
-
-          <input type="hidden" name="_next" value="https://loanfit.in/">
-
-         <button type="submit" id="submitBtn" class="btn-primary">
-           <i class="bi bi-send-fill"></i>
-          Send Message
-          </button>
-         <div id="formMessage"></div>
-
-
-         </form>
-
-        </div>
-
-    </div>
-
-</section>
- 
-<footer class="footer">
-
-    <div class="container footer-container">
-
-        <div class="footer-column">
-            
-            <a href="#home">
-             <img src="images/logo.png" alt="LoanFit Logo" class="footer-logo">
-             </a>
-            <p>
-                LoanFit helps users understand their loan eligibility,
-                compare lenders and make informed borrowing decisions.
-            </p>
-        </div>
-
-        <div class="footer-column">
-
-            <h3>Quick Links</h3>
-
-            <ul>
-                <li><a href="#home">Home</a></li>
-                <li><a href="#features">Features</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-
-        </div>
-
-        <div class="footer-column">
-         
-            <h3>Legal</h3>
-
-            <ul>
-                <li><a href="#">Privacy Policy</a></li>
-                <li><a href="#">Terms & Conditions</a></li>
-                <li><a href="#">Disclaimer</a></li>
-            </ul>
-
-        </div>
-
-        <div class="footer-column">
-
-            <h3>Contact</h3>
-
-            <p><i class="bi bi-envelope-fill"></i> info@loanfit.in</p>
-
-            <p><i class="bi bi-geo-alt-fill"></i> Maharashtra, India</p>
-
-            <div class="social-icons">
-
-                <a href="#"><i class="bi bi-facebook"></i></a>
-
-                <a href="https://www.instagram.com/loanfit.in"><i class="bi bi-instagram"></i></a>
-
-                <a href="https://www.linkedin.com/in/loanfit-in"><i class="bi bi-linkedin"></i></a>
-
-                <a href="#"><i class="bi bi-twitter-x"></i></a>
+                <div class="feature-card">
+                    <div class="icon">💰</div>
+                    <h3>Completely Free</h3>
+                    <p>
+                        Check your loan eligibility with no hidden charges.
+                    </p>
+                </div>
 
             </div>
 
         </div>
 
-    </div>
+    </section>
 
-    <div class="footer-bottom">
 
-        © 2026 LoanFit. All Rights Reserved.
-        <br>
-        Built with ❤️ for India
+    <!-- ================= HOW IT WORKS ================= -->
 
-    </div>
+    <section class="how-it-works" id="how">
 
-</footer>
+        <div class="container">
 
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+            <div class="section-title">
 
-<script src="js/script.js"></script>
+                <span>HOW IT WORKS</span>
+
+                <h2>Get Loan Ready in 4 Simple Steps</h2>
+
+                <p>
+                    LoanFit helps you understand your loan eligibility before you apply.
+                </p>
+
+            </div>
+
+            <div class="steps">
+
+                <div class="step-card">
+                    <div class="step-number">1</div>
+                    <h3>Enter Details</h3>
+                    <p>Provide your basic personal and financial information.</p>
+                </div>
+
+                <div class="step-card">
+                    <div class="step-number">2</div>
+                    <h3>Eligibility Analysis</h3>
+                    <p>LoanFit analyzes your profile using bank eligibility rules.</p>
+                </div>
+
+                <div class="step-card">
+                    <div class="step-number">3</div>
+                    <h3>Compare Banks</h3>
+                    <p>See which banks are most likely to approve your application.</p>
+                </div>
+
+                <div class="step-card">
+                    <div class="step-number">4</div>
+                    <h3>Apply with Confidence</h3>
+                    <p>Choose the right lender and apply with confidence.</p>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+    <section class="about" id="about">
+        <div class="container about-container">
+
+            <div class="about-image">
+                <img src="images/hero.svg" alt="About LoanFit">
+            </div>
+
+            <div class="about-content">
+
+                <div class="section-title">
+                    <span class="section-badge">ABOUT LOANFIT</span>
+                </div>
+
+                <h2>Helping You Choose the Right Bank Before You Apply</h2>
+
+                <p>
+                    LoanFit is a smart loan eligibility platform designed to help
+                    users compare multiple banks before applying for a loan. Our
+                    goal is to reduce unnecessary loan rejections and protect your
+                    credit score.
+                </p>
+
+                <p>
+                    We analyze your profile using bank-specific eligibility rules,
+                    allowing you to make informed financial decisions within
+                    minutes.
+                </p>
+
+                <div class="about-stats">
+
+                    <div class="stat-box">
+                        <h3>25+</h3>
+                        <p>Banks</p>
+                    </div>
+
+                    <div class="stat-box">
+                        <h3>100+</h3>
+                        <p>Eligibility Rules</p>
+                    </div>
+
+                    <div class="stat-box">
+                        <h3>Instant</h3>
+                        <p>Results</p>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+
+        <div class="container">
+
+            <div class="section-title">
+
+                <span>CONTACT US</span>
+
+                <h2>Let's Build Your Financial Future</h2>
+
+                <p>
+                    Have questions about LoanFit? We'd love to hear from you.
+                    Reach out and we'll get back to you as soon as possible.
+                </p>
+
+            </div>
+
+            <div class="contact-wrapper">
+
+                <div class="contact-info">
+                    <h3>Get In Touch</h3>
+
+                    <p>
+                        We're building LoanFit to help people make smarter loan decisions.
+                        Feel free to contact us for suggestions, feedback, or partnership opportunities.
+                    </p>
+
+                    <div class="info-item">
+                        <i class="bi bi-envelope-fill"></i>
+
+                        <div>
+                            <h4>Email</h4>
+                            <span>info@loanfit.in</span>
+                        </div>
+                    </div>
+
+                    <div class="info-item">
+                        <i class="bi bi-telephone-fill"></i>
+
+                        <div>
+                            <h4>Phone</h4>
+                            <span>Coming Soon</span>
+                        </div>
+                    </div>
+
+                    <div class="info-item">
+                        <i class="bi bi-geo-alt-fill"></i>
+
+                        <div>
+                            <h4>Location</h4>
+                            <span>Maharashtra, India</span>
+                        </div>
+                    </div>
+
+                    <div class="info-item">
+                        <i class="bi bi-clock-fill"></i>
+
+                        <div>
+                            <h4>Working Hours</h4>
+                            <span>Mon–Sat • 9:00 AM – 9:00 PM</span>
+                        </div>
+                    </div>
+
+
+                </div>
+
+                <form class="contact-form" id="contactForm"
+                    action="https://formsubmit.co/e3b28baf272e7f6386288c9a3c456cb8" method="POST">
+
+                    <div class="form-group">
+                        <input type="text" id="name" name="name" placeholder="Your Name" required>
+
+                        <small class="error-text" id="nameError"></small>
+                    </div>
+
+                    <div class="form-group">
+                        <input type="email" id="email" name="email" placeholder="Email Address" required>
+
+                        <small class="error-text" id="emailError"></small>
+                    </div>
+
+                    <div class="form-group">
+                        <input type="text" id="subject" name="subject" placeholder="Subject" required>
+
+                        <small class="error-text" id="subjectError"></small>
+                    </div>
+
+                    <div class="form-group">
+
+                        <textarea id="message" name="message" rows="4" maxlength="500" placeholder="Your Message"
+                            required></textarea>
+
+                        <small class="error-text" id="messageError"></small>
+
+                        <div class="text-end">
+                            <small id="charCount">0 / 500</small>
+                        </div>
+
+
+                        <!-- Hidden Fields -->
+                        <input type="hidden" name="_subject" value="New Contact Form Submission - LoanFit">
+
+                        <input type="hidden" name="_captcha" value="false">
+
+                        <input type="hidden" name="_template" value="table">
+
+                        <input type="hidden" name="_next" value="https://loanfit.in/">
+
+                        <button type="submit" id="submitBtn" class="btn-primary">
+                            <i class="bi bi-send-fill"></i>
+                            Send Message
+                        </button>
+                        <div id="formMessage"></div>
+
+
+                </form>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <footer class="footer">
+
+        <div class="container footer-container">
+
+            <div class="footer-column">
+
+                <a href="#home">
+                    <img src="images/logo.png" alt="LoanFit Logo" class="footer-logo">
+                </a>
+                <p>
+                    LoanFit helps users understand their loan eligibility,
+                    compare lenders and make informed borrowing decisions.
+                </p>
+            </div>
+
+            <div class="footer-column">
+
+                <h3>Quick Links</h3>
+
+                <ul>
+                    <li><a href="index.html#home">Home</a></li>
+                    <li><a href="index.html#features">Features</a></li>
+                    <li><a href="index.html#how">How it Works</a></li>
+                    <li><a href="index.html#about">About</a></li>
+                    <li><a href="index.html#contact">Contact</a></li>
+                </ul>
+
+            </div>
+
+            <div class="footer-column">
+
+                <h3>Legal</h3>
+
+                <ul>
+                    <li><a href="privacy-policy.html">Privacy Policy</a></li>
+                    <li><a href="terms.html">Terms & Conditions</a></li>
+                    <li><a href="disclaimer.html">Disclaimer</a></li>
+                </ul>
+
+            </div>
+
+            <div class="footer-column">
+
+                <h3>Contact</h3>
+
+                <p><i class="bi bi-envelope-fill"></i> info@loanfit.in</p>
+
+                <p><i class="bi bi-geo-alt-fill"></i> Maharashtra, India</p>
+
+                <div class="social-icons">
+
+                    <a href="#"><i class="bi bi-facebook"></i></a>
+
+                    <a href="https://www.instagram.com/loanfit.in"><i class="bi bi-instagram"></i></a>
+
+                    <a href="https://www.linkedin.com/in/loanfit-in"><i class="bi bi-linkedin"></i></a>
+
+                    <a href="#"><i class="bi bi-twitter-x"></i></a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="footer-bottom">
+
+            © 2026 LoanFit. All Rights Reserved.
+            <br>
+            Built with ❤️ for India
+
+        </div>
+
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+    <script src="js/script.js"></script>
 </body>
+
 </html>
