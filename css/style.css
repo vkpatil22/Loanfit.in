@@ -741,3 +741,52 @@ section{
     border-color:#2563eb;
     box-shadow:0 0 0 4px rgba(37,99,235,.12);
 }
+
+/* ===========================
+   Mobile Contact Section
+=========================== */
+@media (max-width:768px){
+
+    .contact-wrapper{
+        grid-template-columns:1fr;
+        gap:30px;
+    }
+
+    .contact-info{
+        order:1;
+    }
+
+    .contact-form{
+        order:2;
+        width:100%;
+    }
+
+    .contact-form input,
+    .contact-form textarea,
+    .contact-form button{
+        width:100%;
+    }
+
+}
+
+@media (max-width: 768px) {
+
+    .about-container{
+        grid-template-columns: 1fr;
+        gap: 30px;
+        text-align: center;
+    }
+
+    .about-image{
+        order: 1;
+    }
+
+    .about-content{
+        order: 2;
+    }
+
+    .about-stats{
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+}
